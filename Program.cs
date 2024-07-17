@@ -56,13 +56,12 @@ class Program
                 Console.WriteLine($"{order} : Order starts with B!\n\n");
             }
         }
+        Book book1 = new Book("The Silent Patient", "Alex Michaelides", 250, "Horror");
 
-        Book book1 = new Book("Silent Patient","Alex Michaelides",250);
-        Book book2 = new Book("The Last Time I lied","Riley Sager",650);
+        Book book2 = new Book("The Last Time I lied", "Riley Sager", 650, "Mystery");
 
-        Console.WriteLine(book1.moreThan());
-        Console.WriteLine(book2.moreThan());
-
+        Console.WriteLine(book1.Genre);
+        Console.WriteLine(book2.Genre);
 
     }
 
